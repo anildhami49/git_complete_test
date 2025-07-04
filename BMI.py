@@ -1,6 +1,7 @@
-
+a = input(("please enter your name: "))
 Height=float(input("Enter your height in centimeters: "))
 Weight=float(input("Enter your Weight in Kg: "))
+b = ("hii buddy your body mass: ")
 Height = Height/100
 BMI=Weight/(Height*Height)
 print("your Body Mass Index is: ",BMI)
@@ -15,3 +16,5 @@ if(BMI>0):
 		print("you are overweight")
 	else: print("you are severely overweight")
 else:("enter valid details")
+
+
